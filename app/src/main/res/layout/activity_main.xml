@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="result"/>
+
+   <EditText
+       android:id="@+id/firstEt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Num 1"/>
+
+    <EditText
+        android:id="@+id/secondEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Num 2"/>
+
+  <Button
+      android:id="@+id/calculateBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Calculate"/>
+
+
+
+</LinearLayout>
